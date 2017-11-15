@@ -1,0 +1,23 @@
+#luke{
+	margin: 20px;
+	background-color: green;
+}
+
+#yoda{
+	margin: 20px;
+	background-color: white;
+}
+
+#vader{
+	margin: 20px;
+	background-color: red;
+}
+
+#sidius{
+	margin: 20px;
+	background-color: red;
+}
+
+img {
+	max-width:100%;
+}

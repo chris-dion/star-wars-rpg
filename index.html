@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  	integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+ 	crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body background = "assets/images/hoth.jpg">
+	<audio autoplay loop>
+		<source src="assets/music/star_wars.mp3" type="audio/mpeg">
+	</audio>
+	<div class="container">
+		<div class="row">
+			<h1>Star Wars</h1>
+			<div id="luke" class="col-lg-2">
+				<p>Luke Skywalker</p>
+				<img src="assets/images/luke.jpeg">
+				<p>HP: medium, attack: medium, counter: low</p>
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			<div id="yoda" class="col-lg-2">
+				<p>Yoda</p>
+				<img src="assets/images/yoda.jpeg">
+				<p>HP: high, attack: low, counter: high</p>
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			<div id="vader" class="col-lg-2">
+				<p>Darth Vader</p>
+				<img src="assets/images/vader.jpeg">
+				<p>HP: low, attack: high, counter: medium</p>
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			<div id="sidius" class="col-lg-2">
+				<p>Darth Sidius</p>
+				<img src="assets/images/sidius.jpeg">
+				<p>HP: high, attack: low, counter: low</p>
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+		</div>
+
+		<div class="row">
+			<h2>Your Character</h2>
+			<div id="your_char" class="col-lg-3">
+				<!-- place the correct character that the player has picked -->
+			</div>
+		</div>
+
+		<div class="row">
+			<h2>Enemies available to Attack</h2>
+			<div id="opponent_0" class="col-lg-3">
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			<div id="opponent_1" class="col-lg-3">
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			<div id="opponent_2" class="col-lg-3">
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+		</div>
+
+		<div class="row">
+			<h2>Fight Section</h2>
+			<div id="attack_button" class="col-lg-12">
+				<button onclick="fight()">fight</button>
+				<!-- add attack buttons -->
+			</div>
+		</div>
+
+		<div class="row">
+			<h2>Defender</h2>
+			<div id="defender" class="col-lg-3">
+				<!-- display the characters to choose from -->
+				<!-- remove images after player has choose a character -->
+			</div>
+			</div>
+		</div>
+		
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
